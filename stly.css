@@ -1,0 +1,71 @@
+body {
+    background-image: url(gmr..jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.container {
+    background-color: azure;
+    display: flex;
+    min-width: 590px;
+
+
+}
+
+.left-side {
+    width: 50%;
+    background-image: url(wus..jpg);
+    background-position: center ;
+
+}
+.right-side {
+    width: 55%;
+    background-color: rgb(84, 84, 193);
+}
+h2 {
+    text-align: center;
+}
+
+form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+} 
+
+input {
+    min-width: 230px;
+    box-sizing: border-box;
+    display:flex ;
+    flex-direction: column;
+
+}
+
+.hobby input {
+    display: inline;
+    min-width: 0;
+
+}
+
+.gender input{
+    display: inline;
+    min-width: 0;
+}
+
+input {
+    padding: 9px 12px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+    
+
+
+
